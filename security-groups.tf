@@ -22,7 +22,7 @@ resource "aws_security_group" "my_public_app_sg" {
 
   #OUTBOUND CONNECTIONS
   egress {
-    descrition  = "allow access to the world"
+    description  = "allow access to the world"
     from_port   = 0
     to_port     = 0
     protocol    = "-1" # TCP + UDP
